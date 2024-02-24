@@ -7,13 +7,13 @@ Ensure that you have Python version 3 or above installed on your local PC. You c
 2. Import the BeautifulSoup library from the bs4 package for parsing the HTML response body from the webpage by running <b>pip install beautifulsoup4</b><br><br>
 3. For writing the parsed response from beautifulsoup4 to a Work Book/Excel sheet, I used the openpyxl library by running the <b>pip install openpyxl</b> command.<br>
 
-<h3>Installation Guide</h3>
+<h2>Installation Guide</h2>
 I. Clone the github repository using the following command: <br>
 <b>git clone [url from github]</b><br><br>
 II. Change directories to your cloned project: <br>
-cd PythonDataScrapping<br><br>
+<b>cd PythonDataScrapping</b><br><br>
 III. Open your project using your preferred IDE <br><br>
-IV. Install the dependencies in the requirements.txt file: <br><br>
-pip install -r requirements.txt<br><br>
+IV. Install the dependencies in the requirements.txt file: <br>
+<b>pip install -r requirements.txt</b><br><br>
 V. Start the application by running the command:<br>
-python3 datascrapping.py
+<b>python3 datascrapping.py</b>
