@@ -18,7 +18,7 @@ def scrape_and_write_to_excel(url):
 
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
-        # Parse the HTML content using BeautifulSouppractitioners.xlsx
+        # Parse the HTML response using BeautifulSoup4
         soup = BeautifulSoup(response.content, 'html.parser')
 
         # Find the table containing the data
@@ -42,8 +42,7 @@ def scrape_and_write_to_excel(url):
 
 
 if __name__ == "__main__":
-    # Specify the URL of the website and the desired Excel filename
+    # Specify the URL of the website
     website_url = "https://kmpdc.go.ke/Registers/General_Practitioners.php"
-
-    # Call the function to scrape and write to Excel
+    # Call the function to scrape and write the data to Excel
     scrape_and_write_to_excel(website_url)

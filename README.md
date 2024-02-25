@@ -1,5 +1,5 @@
 <h1>Task Description</h1>
-Write a Python script that scrapes data from https://kmpdc.go.ke/Registers/General_Practitioners.php and writes it into an Excel file.<br>
+Write a Python script that scrapes data from https://kmpdc.go.ke/Registers/General_Practitioners.php and writes the response into an Excel file.<br>
 <h2>Prerequisites</h2>
 Ensure that you have Python version 3 or above installed on your local PC. You can check this by running the command <b>python -v</b><br>
 <h2>Libraries and Dependencies</h2>
@@ -11,9 +11,9 @@ Ensure that you have Python version 3 or above installed on your local PC. You c
 I. Clone the github repository using the following command: <br>
 <b>git clone [url from github]</b><br><br>
 II. Change directories to your cloned project: <br>
-cd PythonDataScrapping<br><br>
+<b>cd PythonDataScrapping</b><br><br>
 III. Open your project using your preferred IDE <br><br>
-IV. Install the dependencies in the requirements.txt file: <br><br>
-pip install -r requirements.txt<br><br>
+IV. Install the dependencies in the requirements.txt file using the command: <br><br>
+<b>pip install -r requirements.txt</b><br><br>
 V. Start the application by running the command:<br>
-python3 datascrapping.py
+<b>python3 datascrapping.py</b>
